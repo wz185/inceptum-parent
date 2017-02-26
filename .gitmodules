@@ -1,0 +1,8 @@
+[submodule "packages/inceptum-sample"]
+	path = packages/inceptum-sample
+	url = git@github.com:hipagesgroup/inceptum-sample.git
+	branch = master
+[submodule "packages/inceptum"]
+	path = packages/inceptum
+	url = git@github.com:hipagesgroup/inceptum.git
+	branch = master
