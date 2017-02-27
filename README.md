@@ -10,7 +10,16 @@ The best way to get started wroking on Inceptum is to checkout this repository. 
 
 You'll need to install: https://lernajs.io/
 After installed you only need to do:
-```lerna bootstrap```
+
+```
+git checkout git@github.com:hipagesgroup/inceptum-parent.git
+cd inceptum-parent
+git submodule init
+git submodule update packages/inceptum
+git submodule update packages/inceptum-sample
+lerna bootstrap
+```
+
 And it will install dependencies and link the projects amongst themselves so all your changes are visible immediately between them.
 
 How to commit changes
