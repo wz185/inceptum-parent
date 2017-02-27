@@ -16,7 +16,7 @@ fi
 
 cd ..
 
-if [ ! -x lerna ]; then
+if ! which lerna > /dev/null; then
     echo "Installing lerna"
     npm install --global lerna@^2.0.0-beta.0
 fi
