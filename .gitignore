@@ -35,4 +35,4 @@ Thumbs.db
 #dotenv
 .env
 
-packages/inceptum
+packages/*
