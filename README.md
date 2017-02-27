@@ -6,18 +6,12 @@ Inceptum is latin for Enterprise. And that's what it is: A framework for the dev
 How to contribute to Inceptum?
 --
 
-The best way to get started wroking on Inceptum is to checkout this repository. It contains the rest of the repositories as submodules.
-
-You'll need to install: https://lernajs.io/
-After installed you only need to do:
+The best way to get started wroking on Inceptum is to checkout this repository. It contains a script that will checkout the necessary repos and manage dependencies for you.
 
 ```
 git checkout git@github.com:hipagesgroup/inceptum-parent.git
 cd inceptum-parent
-git submodule init
-git submodule update packages/inceptum
-git submodule update packages/inceptum-sample
-lerna bootstrap
+./setup.sh
 ```
 
 And it will install dependencies and link the projects amongst themselves so all your changes are visible immediately between them.
