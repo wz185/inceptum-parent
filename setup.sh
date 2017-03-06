@@ -5,13 +5,25 @@ if [ ! -e lerna.json ]; then
     exit 1
 fi
 
-cd packages;
-if [ ! -d  inceptum ]; then
-    git clone git@github.com:hipagesgroup/inceptum.git
+if [ ! -d packages ]; then
+    mkdir packages
 fi
 
-if [ ! -d  inceptum-sample ]; then
-   git clone git@github.com:hipagesgroup/inceptum-sample.git
+cd packages;
+if [ ! -d inceptum ]; then
+    git clone git@github.com:hipages/inceptum.git
+fi
+
+if [ ! -d inceptum-sample ]; then
+   git clone git@github.com:hipages/inceptum-sample.git
+fi
+
+if [ ! -d eslint-config-inceptum ]; then
+   git clone git@github.com:hipages/eslint-config-inceptum.git
+fi
+
+if [ ! -d swagger-inceptum-skeleton ]; then
+   git clone git@github.com:hipages/swagger-inceptum-skeleton.git
 fi
 
 cd ..
