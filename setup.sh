@@ -14,10 +14,6 @@ if [ ! -d inceptum ]; then
     git clone git@github.com:hipages/inceptum.git
 fi
 
-if [ ! -d inceptum-sample ]; then
-   git clone git@github.com:hipages/inceptum-sample.git
-fi
-
 if [ ! -d eslint-config-inceptum ]; then
    git clone git@github.com:hipages/eslint-config-inceptum.git
 fi
