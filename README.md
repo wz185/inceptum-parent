@@ -9,7 +9,7 @@ How to contribute to Inceptum?
 The best way to get started wroking on Inceptum is to checkout this repository. It contains a script that will checkout the necessary repos and manage dependencies for you.
 
 ```
-git clone git@github.com:hipagesgroup/inceptum-parent.git
+git clone git@github.com:hipages/inceptum-parent.git
 cd inceptum-parent
 ./setup.sh
 ```
